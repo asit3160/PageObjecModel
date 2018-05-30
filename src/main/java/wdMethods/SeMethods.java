@@ -98,6 +98,8 @@ public class SeMethods extends Reporter implements WdMethods{
 			ele.clear();
 			ele.sendKeys(data);
 System.out.println("test");
+System.out.println("test");
+System.out.println("test");
 			reportStep("The data: "+data+" entered successfully in field :"+ele, "PASS");
 		} catch (InvalidElementStateException e) {
 			reportStep("The element: "+ele+" is not interactable","FAIL");
