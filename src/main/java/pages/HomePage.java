@@ -27,7 +27,10 @@ public class HomePage extends ProjectMethods{
 		return new LoginPage(driver, test);
 	}
 	
-	
+	/*private void SYSO() {
+		// TODO Auto-generated method stub
+
+	}*/
 	
 	
 	
